@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: black;
+}
+
+/* styling for the header and logo button */
+
+.nav-bar-logo-image {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    float: left;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+/* styling for the navigation bar */
+
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#nav-menu,
+#logo {
+    line-height: 75px;
+}
+
+#nav-menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#nav-menu a {
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#nav-menu a:hover {
+    border-bottom: orange solid 1px;
+}
+
+.active {
+    border-bottom: orange solid 1px;
+}
+
+/* code for the background image for the index.html file */
+
+#dnd-background-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#dnd-background-image {
+    height: 600px;
+    width: 100%;
+    background: url("/assets/images/dnd-group-background.jpg") no-repeat center center;
+}
+
+/* Code for the background image for group about page */
+#group-about-background-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#group-about-background-image {
+    height: 600px;
+    width: 100%;
+    background: url("/assets/images/dnd-about-background.png") no-repeat center center;
+}
+
+/* Code for the main text on the index page and about page */
+
+#main-text {
+    height: 600px;
+}
+
+#main-text-header-text {
+    color: orange;
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+}
+
+#main-welcome-text {
+    color: orange;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+}
+
+#welcome-section-text {
+    color: orange;
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+}
+
+/* code for about p text */
+
+#about-text {
+    color: orange;
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+}
+
+/* Code for the section for orderd list*/
+
+#order-list-meet-up {
+    color: orange;
+    height: 600px;
+    font-family: Helvetica, sans-serif;
+}
+
+#order-list-online-play {
+    color: orange;
+    height: 600px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* code for the contact form section */
+
+.email-form-section {
+    clear: left;
+    background: url("/assets/images/dnd-page.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.email-form {
+    margin: 150px 10% 0 0;
+    color: black;
+    background-color: rgba(3, 3, 3, 0.6);
+    max-width: 800px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.email-form h2 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    display: block;
+}
+
+/* code for the date and time section */
+
+#time {
+    background: url("/assets/images/smedvegen-background.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#time div {
+    color: black;
+    width: 20%;
+    height: 200px;
+    float: left;
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+/* code for the footer on all pages */
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 2%;
+    padding: 5%;
+    color: #ff9100;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    #main-text {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #main-text-header-text {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #main-welcome-text {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #welcome-section-text {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #time > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    @media screen and (max-width: 950px) {
+        #nav-menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+
+        #main-text {
+            width: 90%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+
+        #about-text {
+            width: inherit;
+        }
+    }
+}

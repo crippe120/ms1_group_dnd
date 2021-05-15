@@ -1,59 +1,99 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone project 1 - Dungeons and Dragons group!
 
-Welcome USER_NAME,
+## Goal: Build a website where people can sign up to join a Dungeons and Dragons group.
+I have added a link to the logo on the navebar that leads to the homepage for dnd where people can keep up to date with whats new.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+## User Experience (UX)
+* First Time Visitor Goals
+    * As a first time visitor I want to know what kind of services they offer.
+    * As a first time visitor I want to be able to navigate the site in a easy way.
+    * As a first time visitor I want to know where the group is located and how to get in touch.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Returning Visitor Goals
+    * As a returning visitor i want to find social media links so i can get to know the group better.
+    * As a returning visitor i want to be able to contact the group in an easy way.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+### Who is it for? *Current and new players of Dungeons and Dragons.* 
 
-Another blue button should appear to click: _Open Browser_.
+### What is it? *A webpage that helps people sign up for group sessions*
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Why am i building it? *I love dnd and would like a webpage that makes it easy to find andd sign up for group.*
 
-A blue button should appear to click: _Make Public_,
+## Design
 
-Another blue button should appear to click: _Open Browser_.
+### color:
+    * black background
+    * orange text
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Fonts:
 
-To log into the Heroku toolbelt CLI:
+    * Verdana, sans-serif
+    * Helvetica, sans-serif
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Images: *All images are downloaded from google image search.*
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+# Structure
+ Non-linear
 
-## Updates Since The Instructional Video
+ * Home page
+ * group-about page
+ * contact page (email form)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Navigation design:
+I have put a fixed navigation bar to the top of the page. 
+In my footer i put social media links icons. (this is done on all three pages of the site)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Hierachy information
+Navigation bar left to right:
+ * Home - a short description of the group and what the groups goals are. along with days the group plays on and what times and location.
+ * Group-about - A larger descripton of the group and infromation about the groups experience in running a dnd session.
+ * Contact - An email form page where you can register to join the group.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ ## Features
+    * Responsive on desktop, tablet and smarthphone
+    * Email form
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# technologies Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Languages
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Frameworks, Libraries, Programs
+* [Google Fonts](https://fonts.google.com) was used to import the fonts mentioned above in the project.
+* [Fonts Awsome](https://fontawesome.com) was used to import the icons used in this project.
+* [Am i Responsive](http://ami.responsivedesign.is) was use to make the mockup
+ * [Webformatter](https://webformatter.com/html) was used to beautify the code
+* [Gitpod](https://www.gitpod.io) was used for coding the project
+* [Github](https://github.com) was used to save and store the project after being pushed in Gitpod.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Deployment
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## GitHub Pages
+This project was deployed using Github pages.
 
----
+1. Go to [Github](https://github.com)
+2. Log in and find the repository
+3. Click on the "Settings" button (it has a gear icon)
+4. Scroll down the page to the "Github pages" section
+5. Under the "Source" tab you will find a dropdown which is set to "none"
+6. Change it to "Master"
+7. The page will now refresh on it's own
+8. go back down to "Github Pages"
+9. A green notification box will now tell you that your site has been published and provide you with a link to the site.
 
-Happy coding!
+# Credits
+
+    # Content
+    The text in the index.html and group-about.html are all my own writing.
+
+    # Media
+        * The images are from Google search images that i have downloaded.
+
+    # Acknowledgements
+        * Helpful people on slack
+        * My friend Mamoni Hemlin
