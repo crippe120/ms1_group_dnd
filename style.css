@@ -75,7 +75,7 @@ body {
 #dnd-background-image {
     height: 600px;
     width: 100%;
-    background: url("/assets/images/dnd-group-background.jpg") no-repeat center center;
+    background: url("./assets/images/dnd-group-background.jpg") no-repeat center center;
 }
 
 /* Code for the background image for group about page */
@@ -90,7 +90,7 @@ body {
 #group-about-background-image {
     height: 600px;
     width: 100%;
-    background: url("/assets/images/dnd-about-background.png") no-repeat center center;
+    background: url("./assets/images/dnd-about-background.png") no-repeat center center;
 }
 
 /* Code for the main text on the index page and about page */
@@ -143,7 +143,7 @@ body {
 
 .email-form-section {
     clear: left;
-    background: url("/assets/images/dnd-page.jpg");
+    background: url("./assets/images/dnd-page.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -184,7 +184,7 @@ body {
 /* code for the date and time section */
 
 #time {
-    background: url("/assets/images/smedvegen-background.jpg") no-repeat center center;
+    background: url("./assets/images/smedvegen-background.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
     overflow: hidden;
