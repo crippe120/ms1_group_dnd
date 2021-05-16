@@ -1,5 +1,8 @@
 # Milestone project 1 - Dungeons and Dragons group!
 
+
+![Pic of the finish site](project.png)
+
 ## Goal: Build a website where people can sign up to join a Dungeons and Dragons group.
 I have added a link to the logo on the navebar that leads to the homepage for dnd where people can keep up to date with whats new.
 
